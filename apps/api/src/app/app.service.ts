@@ -4,6 +4,6 @@ import { Message } from '@angular-nest-todo/api-interfaces';
 @Injectable()
 export class AppService {
   getData(): Message {
-    return { message: 'Welcome to api!' };
+    return { message: 'test js' };
   }
 }
